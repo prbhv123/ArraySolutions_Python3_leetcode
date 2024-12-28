@@ -43,7 +43,7 @@ def test_left_rotate():
     ]
 
     for i, (input_arr, expected) in enumerate(test_cases):
-        output = left_rotate_by_one(input_arr[:])  # Copy input to avoid modifying the original
+        output = left_rotate_by_one(input_arr[:])  
         assert output == expected, f"Test case {i + 1} failed: {output} != {expected}"
         print(f"Test case {i + 1} passed!")
 
