@@ -122,6 +122,25 @@ class Solution:
                 Union.append(b[j])
             j+=1      
         return Union
+
+#count of the number of elements in the intersection of two arrays.
+class Solution:
+    def numberofElementsInIntersection(self,a, b):
+        i, j = 0, 0
+        count = 0
+        a.sort()
+        b.sort()
+        while i < len(a) and j < len(b):
+            if a[i] == b[j]:
+                if i == 0 or a[i] != a[i - 1]:
+                    count +=1
+                i+=1
+                j+=1
+            elif a[i] < b[j]:
+                i+=1
+            else:
+                j+=1
+        return count
         
 
     
