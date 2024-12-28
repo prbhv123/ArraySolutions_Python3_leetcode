@@ -12,6 +12,7 @@ This repository contains solutions to LeetCode problems focusing on arrays. The 
 3. [Left Rotating the Array by one place](https://takeuforward.org/data-structure/left-rotate-the-array-by-one/)
 4. [Rotate an array by K places](https://leetcode.com/problems/rotate-array/)
 5. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
+6. [Sorted Array Search](https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1?utm_source=youtube)
 
 ### Solution Link
 https://github.com/prbhv123/ArraySolutions_Python3_leetcode/blob/main/Solution.py
