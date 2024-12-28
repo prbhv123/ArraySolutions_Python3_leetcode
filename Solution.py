@@ -73,6 +73,7 @@ class Solution:
                 if nums[i] != 0:
                     nums[i], nums[j] = nums[j], nums[i]
                     j +=1
+                    
 # Sorted Array Search
 class Solution:
     def searchInSorted(self,arr, k):
@@ -81,5 +82,48 @@ class Solution:
             if (arr[i] == k):
                     return True
         return False
+        
+# Union of 2 Sorted with Duplicates 
+
+## Brute force approach
+class Solution:
+    def findUnion(self,a,b):
+        s = set()
+        Union = []
+        for num in a:
+            s.add(num)
+        for num in b:
+            s.add(num)
+        for num in s:
+            Union.append(num)
+        Union.sort()
+        return Union
+        
+## Optimal approach
+class Solution:
+    def findUnion(self,a,b):
+        i,j = 0, 0
+        union = []
+        while i < len(a) and j < len(b):
+            if a[i] <= b[j]:
+                if len(union) == 0 or union[-1] != a[i]:
+                    union.append(a[i])
+                i+=1
+            else:
+                if len(union) == 0 or union[-1] != b[j]:
+                    union.append(b[j])
+                j+=1
+        while i < len(a):
+            if union[-1] != a[i]:
+                union.append(a[i])
+            i+=1
+        while j < len(b):
+            if union[-1] != b[j]:
+                union.append(b[j])
+            j+=1
+                
+        return union
+        
+
     
         
