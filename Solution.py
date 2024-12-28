@@ -51,5 +51,17 @@ def test_left_rotate():
 if __name__ == "__main__":
     test_left_rotate()
     print("All test cases passed!")
+
+# 189. Rotate Array
+class Solution:
+    def rotate(self, nums: List[int], k: int) -> None:
+        n = len(nums)
+        k %= n
+        # Reversing the entire array
+        nums.reverse()
+        # Reversing the array first k elements
+        nums[:k] = reversed(nums[:k])
+        # Reversing the array after k elements
+        nums[k:] = reversed(nums[k:])
     
         
