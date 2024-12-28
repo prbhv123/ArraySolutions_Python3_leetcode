@@ -15,6 +15,7 @@ This repository contains solutions to LeetCode problems focusing on arrays. The 
 6. [Sorted Array Search](https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1?utm_source=youtube)
 7. [Union of 2 Sorted with Duplicates](https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=union-of-two-sorted-arrays)
 8. [Intersection of 2 arrays](https://www.geeksforgeeks.org/problems/intersection-of-two-arrays2404/1?ref=gcse_ind)
+9. [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
 
 ### Solution Link
 https://github.com/prbhv123/ArraySolutions_Python3_leetcode/blob/main/Solution.py
