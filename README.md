@@ -1,5 +1,5 @@
 # ArraySolutions_Python3_leetcode
-Solutions to LeetCode problems focusing on arrays in Python (Easy)
+Solutions to LeetCode problems focusing on arrays in Python
 
 # LeetCode Data Structures Solutions in Python
 This repository contains solutions to LeetCode problems focusing on arrays. The solutions are written in Python and categorized by problem type.
