@@ -73,5 +73,13 @@ class Solution:
                 if nums[i] != 0:
                     nums[i], nums[j] = nums[j], nums[i]
                     j +=1
+# Sorted Array Search
+class Solution:
+    def searchInSorted(self,arr, k):
+        n = len(arr)
+        for i in range (n):
+            if (arr[i] == k):
+                    return True
+        return False
     
         
