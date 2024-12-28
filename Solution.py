@@ -141,6 +141,35 @@ class Solution:
             else:
                 j+=1
         return count
+
+# To find the intersection of two arrays
+def find_intersection(arr1, arr2):
+    i, j = 0, 0  # Pointers for arr1 and arr2
+    intersection = []  # To store the intersection of arr1 and arr2
+
+    while i < len(arr1) and j < len(arr2):
+        if arr1[i] == arr2[j]:  # If elements are the same
+            # Add to the intersection if it's not already present
+            if len(intersection) == 0 or intersection[-1] != arr1[i]:
+                intersection.append(arr1[i])
+            i += 1
+            j += 1
+        elif arr1[i] < arr2[j]:  # Move the pointer in arr1
+            i += 1
+        else:  # Move the pointer in arr2
+            j += 1
+
+    return intersection
+
+
+# Example usage
+arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr2 = [2, 3, 4, 4, 5, 11, 12]
+
+intersection = find_intersection(arr1, arr2)
+
+print("Intersection of arr1 and arr2 is:")
+print(*intersection)
         
 
     
