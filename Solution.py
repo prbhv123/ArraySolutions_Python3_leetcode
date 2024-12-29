@@ -158,7 +158,6 @@ def find_intersection(arr1, arr2):
             i += 1
         else:  # Move the pointer in arr2
             j += 1
-
     return intersection
 
 
@@ -170,6 +169,43 @@ intersection = find_intersection(arr1, arr2)
 
 print("Intersection of arr1 and arr2 is:")
 print(*intersection)
+
+# 485. Max Consecutive Ones
+class Solution:
+    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
+        maxi = 0
+        n = len(nums)
+        cnt = 0
+        for i in range(0,n):
+            if nums[i] == 1:
+                cnt+=1
+                maxi=max(maxi,cnt)
+            else:
+                cnt = 0
+        return maxi
+
+# 136. Single Number
+## Using Hash Map
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        n = len(nums)
+        hashmap = {}
+        for num in nums:
+            hashmap[num] = hashmap.get(num, 0) + 1
+        for num, count in hashmap.items():
+            if count == 1:
+                return num
+        return -1
+## Using XOR : Most Optimal
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        xorr = 0
+        for num in nums:
+            xorr ^= num
+        return xorr
+
+
+
         
 
     
