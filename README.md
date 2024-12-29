@@ -16,6 +16,8 @@ This repository contains solutions to LeetCode problems focusing on arrays. The 
 7. [Union of 2 Sorted with Duplicates](https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=union-of-two-sorted-arrays)
 8. [Intersection of 2 arrays](https://www.geeksforgeeks.org/problems/intersection-of-two-arrays2404/1?ref=gcse_ind)
 9. [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
+10. [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
+11. [136. Single Number](https://leetcode.com/problems/single-number/description/)
 
 ### Solution Link
 https://github.com/prbhv123/ArraySolutions_Python3_leetcode/blob/main/Solution.py
