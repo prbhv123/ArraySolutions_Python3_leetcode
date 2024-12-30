@@ -18,6 +18,7 @@ This repository contains solutions to LeetCode problems focusing on arrays. The 
 9. [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
 10. [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
 11. [136. Single Number](https://leetcode.com/problems/single-number/description/)
+12. [Quick Sort](https://www.geeksforgeeks.org/problems/quick-sort/1utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=quick-sort)
 
 ### Solution Link
 https://github.com/prbhv123/ArraySolutions_Python3_leetcode/blob/main/Solution.py
